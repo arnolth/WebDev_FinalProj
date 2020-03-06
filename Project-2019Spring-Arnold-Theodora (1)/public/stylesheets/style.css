@@ -1,0 +1,267 @@
+/* START navBar CSS */
+.topMenu {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 10;
+    background-color: #000000;
+    font-family: Lucida Console, Courier, monospace;
+}
+
+.topBar  a {
+    float: left;
+    color: #eee9d8;
+    text-align: center;
+    padding: 1% 1.5%;
+    margin: .3%;
+    text-decoration: none;
+    font-size: 1.5vw;
+}
+
+.topBar a:hover {
+    background-color: #595959;
+    border-radius: 1em;
+}
+
+.topBar a.active {
+    background-color: #595959;
+    color: #eee9d8;
+    border-radius: 1em;
+}
+
+.topBar a.right {
+    float: right;
+    font-size: 1.25vw;
+}
+
+.title a {
+    float: right;
+    color: #eee9d8;
+    text-align: center;
+    padding: 1% 1.5%;
+    margin: .3%;
+    text-decoration: none;
+    font-size: 2.5vw;
+}
+/* END navBar CSS */
+
+body {
+    background: #000000;
+}
+
+
+/* START Home CSS */
+.myCarousel{
+    margin: auto;
+    width: 85%;
+}
+
+.carousel.slide{
+    margin-top: 8%;
+
+}
+
+.carousel-inner .item img{
+    position: relative;
+    width: 100%;
+}
+
+.carousel-inner .item .hoverbox {
+	position: relative;
+	overflow: hidden;
+	max-width: 100%;
+}
+.carousel-inner .item .hoverbox img {
+	max-width: 100%;
+}
+.carousel-inner .item .hoverbox .bottomLayer {
+	display: block;
+}
+
+.carousel-inner .item .hoverbox .topLayer {
+	opacity: 0;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(89, 89, 89, .6);
+	transition: all 0.4s ease-in-out 0s;
+}
+
+.item .hoverbox .topLayer:hover {
+	opacity: .8;
+}
+
+.hoverbox .bottomLayer {
+    padding: 0px;
+    background: transparent none repeat scroll 0% 0%;
+}
+
+/* .carousel-inner .downloadbtn {
+    width:85%;
+    margin: auto;
+    opacity: .4;
+    color: #eee9d8;
+    background-color: #595959;
+    border-radius: 1em;
+    outline: 0;
+    padding: 1% 2%;
+    margin: .5%;
+    font-size: 1vw;
+    font-family: Lucida Console, Courier, monospace;
+    font-weight: lighter;
+    cursor: pointer;
+} */
+/* END Home CSS */
+
+
+/* START Destinations CSS */
+ul.destinationList{
+    overflow: auto;
+    list-style: none;
+    color: #eeead9;
+    margin-top: 6%;
+    font-family: Lucida Console, Courier, monospace;
+    font-size: 2.5vw;
+}
+.destinationList li {
+    text-align: center;
+    cursor: pointer;
+    width: 30%;
+    margin: 3%;
+    padding: 1%;
+    background-color: #000000;
+    border-radius: 1em;
+    color: #eeead9;
+}
+
+.destinationList a:hover li {
+    text-decoration: none;
+    background-color: #595959;
+    border-radius: 1em;
+}
+/* END Destinations CSS */
+
+
+/* START --- About CSS */
+.aboutMe {
+    text-align: center;
+    margin-top: 6%;
+    margin-bottom: 3%;
+    font-size: 3.75vw;
+    color: #eee8d7;
+    font-family: Lucida Console, Courier, monospace;
+}
+
+.myPhoto>img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border-radius: 100%;
+}
+
+.scrollbox {
+    font-size: 2vw;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 5%;
+    width: auto;
+    height: 10em;
+    overflow: scroll;
+    color: #eee8d7;
+    background-color: #14141a;
+    border-radius: 1em;
+    padding: 2%;
+    position: absolute;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.scrollbox ul{
+    display: inline-block;
+    margin: 3%;
+    list-style: circle;
+    list-style-position: inside;
+}
+/* END About CSS */
+
+
+/* START 404 CSS */
+.err404{
+    margin-top: 10%;
+    margin-left: 6%;
+    font-size: 3vw;
+    color: #eee9d8;
+    font-family: Lucida Console, Courier, monospace;
+}
+.msg404{
+    margin-left: 10%;
+    margin-top:2%;
+    font-size: 1.5vw;
+    color: #eee9d8;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+/* END 404 CSS */
+
+
+/* START destination pages CSS */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 6% 3%;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 33%;
+  max-width: 33%;
+  padding: .5% .5%;
+}
+
+.column img {
+  margin-top: 3%;
+  vertical-align: middle;
+  width: 100%;
+}
+
+/* START contact CSS */
+
+form {
+    margin: 3%;
+
+}
+
+.contact-form {
+    background-color: #eee9d8;
+    border-radius: 1em;
+    outline: 0;
+    width: 40%;
+    padding: 1% 2%;
+    margin: .5%;
+    font-size: 1vw;
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+input, textarea {
+    font-family: Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+.submitbtn{
+    color: #eee9d8;
+    background-color: #595959;
+    border-radius: 1em;
+    outline: 0;
+    padding: 1% 2%;
+    margin: .5%;
+    font-size: 1vw;
+    font-family: Lucida Console, Courier, monospace;
+    font-weight: lighter;
+}
